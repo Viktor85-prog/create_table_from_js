@@ -15,13 +15,15 @@ body {
 }
 
 .column {
-    float: left;
+    display: inline-block;
+    /* float: left; */
     overflow: hidden;
 }
 
 .cell {
     border: 1px solid green;
     width: 150px;
+    width: 100%;
     height: 50px;
     box-sizing: border-box;
     text-align: center;
